@@ -10,14 +10,19 @@
 </head>
 
 <body>
-    <form action="">
+    <form id="form"  action="">
         <h1>Bacana</h1><br>
-        <label for="">titulo:</label><input placeholder="escreva sua nota aqui..." type="text">
-        <label for="">conteudo:</label><textarea placeholder="escreva sua nota aqui..." name="" id="" cols="30"
-            rows="10"></textarea>
+        <label for="">titulo:</label>
+        <input placeholder="escreva sua nota aqui..." type="text" id="titulo" required>
+        <label for="">conteudo:</label>
+        <textarea placeholder="escreva sua nota aqui..." name="conteudo" id="conteudo" cols="30"
+            rows="10" required></textarea>
         <input type="submit" value="salvar nota">
         
     </form>
+    <div id="container de notas">
+        <h1>NOTAS:</h1>
+    </div>
 
-
+<script src="algo.js"></script>
 </body>
